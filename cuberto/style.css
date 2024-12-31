@@ -128,14 +128,18 @@ body{
 .fright .images{
     height: 90%;
     width: 90%;
-    background-color: aqua;
 }
-#btndiv{
+.fright .images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btndiv{
     display: flex;
     align-self: center;
     justify-content: center;
 }
-#btndiv button{
+.btndiv button{
     padding: 1.3vw 2.5vw;
     border-radius: 100px;
     border: 2px solid gray;
@@ -182,4 +186,7 @@ body{
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
+}
+.homemain .headings h1:hover{
+    color: black;
 }
